@@ -5,7 +5,7 @@ const Description = () => {
   return (
     <section id="description">
       <div className="description">
-        <h2> Peliteiro's House</h2>
+        <h2> Casa dos Peliteiros </h2>
         <p>
           A dozen meters from the sea-facing south, WHITE is the result of the
           passion that João and Catarina Reis share for the art of creating

@@ -1,58 +1,58 @@
 import React from "react";
 import Slider from "react-slick";
 import { Link } from "react-scroll";
+import one from "../assets/1.jpg";
+import two from "../assets/2.jpg";
+import three from "../assets/3.jpg";
+import four from "../assets/4.jpg";
+import five from "../assets/5.jpg";
+import six from "../assets/6.jpg";
+import seven from "../assets/7.jpg";
+import eight from "../assets/8.jpg";
+import nine from "../assets/9.jpg";
+import ten from "../assets/10.jpg";
 
 import "./index.css";
 
 const items = [
   {
-    thumbnail:
-      "https://image.tmdb.org/t/p/w300_and_h450_bestv2/wHa6KOJAoNTFLFtp7wguUJKSnju.jpg",
+    src: one,
   },
 
   {
-    thumbnail:
-      "https://image.tmdb.org/t/p/w600_and_h900_bestv2/fi8EvaWtL5CvoielOjjVvTr7ux3.jpg",
+    src: two,
   },
 
   {
-    thumbnail:
-      "https://image.tmdb.org/t/p/w600_and_h900_bestv2/bOth4QmNyEkalwahfPCfiXjNh1r.jpg",
+    src: three,
   },
 
   {
-    thumbnail:
-      "https://image.tmdb.org/t/p/w600_and_h900_bestv2/zn7feouGPU8sELez4qvpp0EtgeQ.jpg",
+    src: four,
   },
 
   {
-    thumbnail:
-      "https://image.tmdb.org/t/p/w600_and_h900_bestv2/c1J6PO4qaAQ9JuM4PfdWZ2lrRa.jpg",
+    src: five,
   },
 
   {
-    thumbnail:
-      "https://image.tmdb.org/t/p/w600_and_h900_bestv2/y55oBgf6bVMI7sFNXwJDrSIxPQt.jpg",
+    src: six,
   },
 
   {
-    thumbnail:
-      "https://image.tmdb.org/t/p/w600_and_h900_bestv2/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg",
+    src: seven,
   },
 
   {
-    thumbnail:
-      "https://image.tmdb.org/t/p/w600_and_h900_bestv2/3NTAbAiao4JLzFQw6YxP1YZppM8.jpg",
+    src: eight,
   },
 
   {
-    thumbnail:
-      "https://image.tmdb.org/t/p/w600_and_h900_bestv2/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+    src: nine,
   },
 
   {
-    thumbnail:
-      "https://image.tmdb.org/t/p/w600_and_h900_bestv2/uOYWdGpymxSgPMkHo3SgINpWUgk.jpg",
+    src: ten,
   },
 ];
 
@@ -77,7 +77,7 @@ const Banner = () => {
       <Slider {...settings}>
         {items.map((item, i) => (
           <div key={i} className="slider__element">
-            <img className="banner__image" src={item.thumbnail} alt="" />
+            <img className="banner__image" src={item.src} alt="" />
           </div>
         ))}
       </Slider>

@@ -1,4 +1,5 @@
 import React from "react";
+import eleven from "../assets/11.jpg";
 
 import "./index.css";
 
@@ -12,7 +13,7 @@ const StayWithUs = () => {
           height: "100%",
           display: "flex",
         }}
-        src={"https://static.educalingo.com/img/en/800/sunset.jpg"}
+        src={eleven}
         alt=""
       />
       <div className="stay__with__us__text">

@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useMemo } from "react";
 import eleven from "../assets/11.jpg";
+import one from "../assets/1.jpg";
 
 import "./index.css";
 
 const StayWithUs = () => {
+  const showBiggerImage = useMemo(
+    () => (window.innerWidth <= 850 ? false : true),
+    [window.innerWidth]
+  );
+
   return (
     <div className="stay__with__us">
       <img
@@ -13,7 +19,7 @@ const StayWithUs = () => {
           height: "100%",
           display: "flex",
         }}
-        src={eleven}
+        src={showBiggerImage ? one : eleven}
         alt=""
       />
       <div className="stay__with__us__text">

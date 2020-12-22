@@ -4,7 +4,6 @@ import { Link } from "react-scroll";
 import one from "../assets/1.jpg";
 import two from "../assets/2.jpg";
 import three from "../assets/3.jpg";
-import four from "../assets/4.jpg";
 import five from "../assets/5.jpg";
 import six from "../assets/6.jpg";
 import seven from "../assets/7.jpg";
@@ -16,43 +15,31 @@ import "./index.css";
 
 const items = [
   {
-    src: one,
-  },
-
-  {
-    src: two,
-  },
-
-  {
     src: three,
   },
-
-  {
-    src: four,
-  },
-
   {
     src: five,
   },
-
   {
     src: six,
   },
-
   {
     src: seven,
   },
-
   {
     src: eight,
   },
-
   {
     src: nine,
   },
-
   {
     src: ten,
+  },
+  {
+    src: two,
+  },
+  {
+    src: one,
   },
 ];
 
@@ -74,6 +61,7 @@ const Banner = () => {
           <span />
         </span>
       </Link>
+
       <Slider {...settings}>
         {items.map((item, i) => (
           <div key={i} className="slider__element">

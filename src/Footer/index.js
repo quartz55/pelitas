@@ -20,7 +20,7 @@ const Footer = () => {
       </div>
       <div className="footer_socialPages">
         <a
-          href="https://www.facebook.com/casadospeliteiros/"
+          // href="https://www.facebook.com/casadospeliteiros/"
           target="_blank"
           rel="noreferrer"
         >
@@ -29,7 +29,7 @@ const Footer = () => {
           </IconButton>
         </a>
         <a
-          href="https://www.instagram.com/casa_dos_peliteiros/"
+          // href="https://www.instagram.com/casa_dos_peliteiros/"
           target="_blank"
           rel="noreferrer"
         >
@@ -43,20 +43,20 @@ const Footer = () => {
         <div>
           <p>Address</p>
           <a
-            href="https://www.google.com/maps/dir/41.4351946,-8.7811653/41.67508,-8.2471599/@41.4908325,-8.8457735,9.75z/data=!4m4!4m3!1m1!4e1!1m0"
+            // href="https://www.google.com/maps/dir/41.4351946,-8.7811653/41.67508,-8.2471599/@41.4908325,-8.8457735,9.75z/data=!4m4!4m3!1m1!4e1!1m0"
             target="_blank"
             rel="noreferrer"
           >
-            Vilarinho das Perdizes, 4845-045
+            Italian Alps
           </a>
         </div>
         <div>
           <p>Contacts</p>
-          <a className="phoneblock" href="tel:+351913108908">
-            Phone: +351 913 108 908
+          <a className="phoneblock" href="tel:+351111111111">
+            Phone: +351 111 111 111
           </a>
           <a className="emailblock" href="mailto:miguel@peliteiro.com">
-            Email: miguel@peliteiro.com
+            Email: myhome@myhome.com
           </a>
         </div>
       </div>

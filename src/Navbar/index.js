@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className={`nav ${show && "nav__black"}`}>
       <Link to="banner" smooth duration={1000}>
-        <h4>Casa dos Peliteiros</h4>
+        <h4>My Home</h4>
         {/*
         <img
           className="nav__logo"
@@ -27,14 +27,14 @@ const Navbar = () => {
       </Link>
       <div className="nav__reservations">
         <a
-          href="https://www.booking.com/hotel/pt/casa-dos-paliteiros.pt-pt.html"
+          //href="https://www.booking.com/hotel/pt/casa-dos-paliteiros.pt-pt.html"
           target="_blank"
           rel="noreferrer"
         >
           <h3>Booking</h3>
         </a>
         <a
-          href="https://www.airbnb.pt/rooms/1970323?source_impression_id=p3_1605818669_PjdJXNbn1Mp%2BJ%2B93&guests=1&adults=1"
+          //href="https://www.airbnb.pt/rooms/1970323?source_impression_id=p3_1605818669_PjdJXNbn1Mp%2BJ%2B93&guests=1&adults=1"
           target="_blank"
           rel="noreferrer"
         >

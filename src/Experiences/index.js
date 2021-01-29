@@ -7,15 +7,15 @@ const Experiences = () => {
     <div className="experiences">
       <h2> EXPERIENCES </h2>
       <p>
-        We want you to make the most of your stay in São Miguel. When staying at
-        WHITE, you have at your disposal a tailor-made experiences service to
-        personalize your vacation exactly as you dreamed. Would you like to
-        enjoy your destination to the fullest, combining one or more
-        experiences? Tell us what your interests are, what you most like to do.
-        How much time you have available during your stay and let yourself be
-        surprised by our creativity to provide you with the best experience
-        while visiting us. We have local secrets to share with you! Our team
-        will be at your disposal to provide you with an unforgettable stay.
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
       </p>
     </div>
   );

@@ -5,16 +5,17 @@ const Description = () => {
   return (
     <section id="description">
       <div className="description">
-        <h2> Casa dos Peliteiros </h2>
+        <h2> My Home </h2>
         <p>
-          A dozen meters from the sea-facing south, WHITE is the result of the
-          passion that João and Catarina Reis share for the art of creating
-          unique places in unique environments. The result is to provide an
-          exclusive experience to those who visit us, where time has another
-          rhythm that brings us the stillness of the Azorean nature. It was
-          during a walk that João and Catarina Reis identified the ruins of an
-          old summer house, where the immensity of the views and the magic of
-          the place made them dream.
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
         </p>
       </div>
     </section>
